@@ -2,3 +2,6 @@ fastapi
 uvicorn[standard]
 agentspan
 python-dotenv
+sqlalchemy
+pymysql
+pydantic-settings

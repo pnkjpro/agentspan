@@ -8,7 +8,6 @@ def get_user_by_id(user_id: str) -> dict:
     """
     Look up a user by user_id in the MySQL users table.
     """
-
     db: Session = SessionLocal()
 
     try:
